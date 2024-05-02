@@ -1,2 +1,4 @@
 # videoindexer
-This project uses PyTorch and ResNet50 to extract frame embeddings from videos, stores them in PostgreSQL with pgvector for efficient similarity searches, and utilizes OpenCV for video frame extraction. Ideal for building advanced video analysis and retrieval systems
+> Attention: This project is still in development and not ready for production use.
+
+This project uses OpenCV for video frame extraction, PyTorch and ResNet50 to generate frame embeddings, and stores them in PostgreSQL with pgvector for efficient similarity searches. It's ideal for building advanced video analysis and retrieval systems
